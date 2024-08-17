@@ -36,7 +36,7 @@ The dashboard provides:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/mern-dashboard.git
+    git clone https://github.com/parkhesakshi/Roxiler_MERN_Assessment.git
     cd mern-dashboard/backend
     ```
 
@@ -47,9 +47,9 @@ The dashboard provides:
 
 3. **Create a `.env` file** in the `backend` directory and add the following:
     ```env
-    DATA_URL=https://s3.amazonaws.com/roxiler.com/product_transaction.json
-    MONGO_URI=mongodb://localhost:27017/your-database-name
-    PORT=5000
+    DATA_URL=YOUR_API
+    MONGO_URI=YPUR_DATABASE_URL
+    PORT=PORT
     ```
 
 4. **Start the backend server:**
