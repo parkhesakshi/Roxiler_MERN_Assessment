@@ -53,7 +53,7 @@ The dashboard provides:
 
 4. **Start the backend server:**
     ```bash
-    npm start
+    nodemon server.js
     ```
 
 ### Frontend
@@ -70,7 +70,7 @@ The dashboard provides:
 
 3. **Start the frontend development server:**
     ```bash
-    npm run dev
+    npm start
     ```
 
 ## Deployment
