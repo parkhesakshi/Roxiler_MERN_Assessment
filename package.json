@@ -1,0 +1,23 @@
+{
+  "name": "roxiler",
+  "version": "1.0.0",
+  "description": "This project is a dynamic UI dashboard built using the MERN stack (MongoDB, Express, React, Node.js) and Tailwind CSS. It includes functionalities for viewing transactions, statistics, and visualizing data with charts.",
+  "main": "index.js",
+ "scripts": {
+ "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parkhesakshi/Roxiler_MERN_Assessment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parkhesakshi/Roxiler_MERN_Assessment/issues"
+  },
+  "homepage": "https://github.com/parkhesakshi/Roxiler_MERN_Assessment#readme"
+}
