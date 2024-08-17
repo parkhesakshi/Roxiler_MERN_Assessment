@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Roxiler_MERN_Assessment/static/css/main.8c385348.css",
+    "main.js": "/Roxiler_MERN_Assessment/static/js/main.5562a442.js",
+    "index.html": "/Roxiler_MERN_Assessment/index.html",
+    "main.8c385348.css.map": "/Roxiler_MERN_Assessment/static/css/main.8c385348.css.map",
+    "main.5562a442.js.map": "/Roxiler_MERN_Assessment/static/js/main.5562a442.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c385348.css",
+    "static/js/main.5562a442.js"
+  ]
+}
