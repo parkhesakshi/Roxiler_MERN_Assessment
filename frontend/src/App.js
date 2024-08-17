@@ -36,7 +36,7 @@ const navItems = [
           }`
         }
       >
-        Stats
+        Statistics
       </NavLink>
     ),
   },
@@ -60,7 +60,6 @@ const options = [
 
 const App = () => {
   const [month, setMonth] = useState(3);
-
   const handleMonthChange = (value) => {
     setMonth(parseInt(value));
     // Show a toast notification when the month changes
