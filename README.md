@@ -5,7 +5,6 @@ This project is a dynamic UI dashboard built using the MERN stack (MongoDB, Expr
 ## Project Overview
 
 The dashboard provides:
-
 - **Transaction List**: A paginated and searchable list of transactions.
 - **Statistics**: Total sales, number of sold items, and unsold items for a selected month.
 - **Bar Chart**: Visualization of transaction price ranges.
@@ -29,4 +28,75 @@ The dashboard provides:
 
 - Node.js and npm
 - MongoDB
-- Axios
+- Vite (for frontend setup)
+
+## Setup
+
+### Backend
+
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/your-username/mern-dashboard.git
+    cd mern-dashboard/backend
+    ```
+
+2. **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3. **Create a `.env` file** in the `backend` directory and add the following:
+    ```env
+    DATA_URL=https://s3.amazonaws.com/roxiler.com/product_transaction.json
+    MONGO_URI=mongodb://localhost:27017/your-database-name
+    PORT=5000
+    ```
+
+4. **Start the backend server:**
+    ```bash
+    npm start
+    ```
+
+### Frontend
+
+1. **Navigate to the frontend directory:**
+    ```bash
+    cd ../frontend
+    ```
+
+2. **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3. **Start the frontend development server:**
+    ```bash
+    npm run dev
+    ```
+
+## Deployment
+
+To deploy the project, build the frontend and deploy both backend and frontend to a cloud service like Heroku, Netlify, or Vercel.
+
+1. **Build the frontend:**
+    ```bash
+    npm run build
+    ```
+
+2. **Deploy the backend** and **frontend** to your chosen platform.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
+
+## Contact
+
+For any questions or feedback, please contact [sakshiparkhe56@gmail.com](mailto:sakshiparkhe56@gmail.com).
+
+---
+
+Enjoy building and using your dynamic MERN stack dashboard!
