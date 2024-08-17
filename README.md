@@ -37,7 +37,6 @@ The dashboard provides:
 1. **Clone the repository:**
     ```bash
     git clone https://github.com/parkhesakshi/Roxiler_MERN_Assessment.git
-    cd mern-dashboard/backend
     ```
 
 2. **Install dependencies:**
